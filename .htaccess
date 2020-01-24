@@ -1,0 +1,9 @@
+## Deeny access
+<FilesMatch "\.?htaccess$>
+
+deny from all
+
+</FilesMatch>
+## Redirect user
+
+Redirect 301 /DaSilva_Guilherme_MoviesCMS/load.php /DaSilva_Guilherme_MoviesCMS

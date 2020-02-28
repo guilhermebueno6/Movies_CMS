@@ -1,4 +1,4 @@
-## Deeny access
+## Deny access
 <FilesMatch "\.?htaccess$>
 
 deny from all

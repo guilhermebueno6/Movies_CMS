@@ -40,8 +40,8 @@ function getMoviesByFilter($args){
     $queryAll .= ' AND t2.'. $args['col2'].' = t3.'.$args['col2'];
     $queryAll .= ' AND t2.'. $args['col3'].' = "'.$args['filter'].'"';
     
-        // echo $queryAll;
-        // exit;
+        echo $queryAll;
+        exit;
 
 
     $results = $pdo->query($queryAll);
